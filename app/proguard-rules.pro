@@ -15,3 +15,10 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+##---------------Start: GaussianBlur ----------
+
+-dontwarn android.support.v8.renderscript.**
+-keep public class android.support.v8.renderscript.** { *; }
+
+##---------------End: GaussianBlur ----------
